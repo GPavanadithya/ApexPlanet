@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Interactive site</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Quiz & Joke</h1>
+            <ul>
+
+                <li><a href="#Quiz_com">Quiz</a></li>
+                <li><a href="#joke">Joke</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Web Development Quiz</h1>
+    <section class="Quiz_com">
+        <div class="options" id="quiz">
+            <h2 id="questions">Loading question..</h2>
+            <label><input type="radio" name="answer" class="answer" id="a"> <span id="op_a"></span></label>
+            <br><br>
+            <label><input type="radio" name="answer" class="answer" id="b"> <span id="op_b"></span></label>
+            <br><br>
+            <label><input type="radio" name="answer" class="answer" id="c"> <span id="op_c"></span></label>
+            <br><br>
+            <label><input type="radio" name="answer" class="answer" id="d"> <span id="op_d"></span></label>
+            <br><br>
+            <button type="submit" class="submit_But" id="submit">submit</button>
+        </div>
+
+    </section>
+    <section class="joke">
+        <div class="joke_api">
+            <h2>Have a Joke...</h2>
+            <div class="jokeDisplay" id="jokeDisplay"></div>
+            <button type="button" class="joke_But" id="joke_But">Get a joke</button>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Interactive Site. All rights reserved.</p>
+    </footer>
+</body>
+<script src="main.js"></script>
+
+</html>
