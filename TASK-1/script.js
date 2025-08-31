@@ -1,0 +1,200 @@
+
+document.querySelector(".alertButton").onclick=()=>{
+    alert("Hello! This is an alert message.");
+}
+/* body background and font changing */
+
+body {
+    background-image: url('img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: 'Arial', sans-serif;
+    line-height: 4.5;
+    margin: 0;
+    color: white;
+    padding: 1rem;
+    
+}
+
+header{
+    background-color: transparent;
+    padding: 20px;
+    margin-top: -70px;
+    text-align: center;
+    padding: 0px;
+}
+
+main{
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    display: flex;
+    text-align: left;
+    padding: 20px;
+    margin-top: 25px;
+    line-height: 60px;
+}
+.alert {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 20px;
+    gap: 12px;
+
+}
+button {
+    background-color: #35424a;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    
+}
+
+button:hover {
+    background-color: #263849;
+    box-shadow: 18px 20px 38px black;
+    transition: 1.5s;
+}
+p {
+    width: 300px;
+    margin-right: 50px;
+    margin: 0px;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 40px;
+}
+.about {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0 15px;
+    border-radius: 10px;
+    margin: 0px 0;
+    max-height: 95rem;
+    max-width: 150rem;
+    text-align: left;
+    margin-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    box-shadow: 12px 20px 22px Black;
+}
+
+.intro {
+    flex: 1;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border:none;
+    border-radius: 48%;
+    object-fit: cover;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    border-style: groove;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    vertical-align: middle;
+    padding-bottom: 0;
+}
+img:hover {
+    border-radius: 35%;
+    border-style: groove;
+    border-color: black;
+    cursor: pointer;
+    transition: 2.1s;
+    box-shadow: 14px 20px 26px black;
+    animation: forwards;
+}
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+h2 {
+    line-height: 28px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+b {
+    font-size: 35px;
+    color: #909ad1;
+}
+
+.trigger {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Landing Webpage</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <main>
+            z
+            <header>
+                <h1>Simple Landing WebPage</h1>
+            </header>
+
+            <div class="about">
+                <div class="profile">
+                    <img src="Gibli.png" alt="Gibli art">
+                </div>
+                
+                <div class="intro">
+                    <h2><b>I'm Pavan Adithya </b></h2>
+                    <h2>Welcome to My Webpage</h2>
+                    <p>This is a simple landing page designed to showcase basic HTML, CSS, and JavaScript functionality.</p>
+                </div>
+                
+                <div class="alert">
+                    <h2>Alert Button👉---</h2>
+                    <button class="alertButton">Click Me!</button>
+                </div>
+                <p class="trigger">Click the Button to see an alert message.</p>
+                
+
+            </div>
+            <footer>
+                <p>&copy; 2025 My Webpage</p>
+            </footer>
+            <script src="script.js"></script>
+           
+        </main>
+        
+    </body>
+
+</html>
+
